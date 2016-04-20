@@ -1,6 +1,6 @@
 #Ferramenta C2Y!
-----------
 Ferramenta de análise de aprendizagem de conceitos.
+----------
 
 ## Configuração ##
 
