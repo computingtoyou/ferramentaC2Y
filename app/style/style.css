@@ -1,0 +1,25 @@
+.background-start{
+  overflow: hidden;
+  background: url('../img/background.jpeg') no-repeat fixed;
+  background-size:cover;
+  background-position-y:center;
+}
+
+.transparent-dark {
+  background:rgba(0,0,0,0.75);
+}
+
+.full-screen{
+  height: 100vh;
+}
+
+.wrapper {
+  height: 100%;
+  min-height: 100%;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+}
