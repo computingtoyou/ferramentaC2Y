@@ -17,7 +17,7 @@ Ferramenta de análise de aprendizagem de conceitos.
 ----------
 
 
-## Tutoriais de ReacJS ##
+## Tutoriais de ReactJS ##
  - [ReactJS Fundamentals](http://courses.reactjsprogram.com/courses/reactjsfundamentals)
  - [React Router](https://egghead.io/series/getting-started-with-react-router)
  - [First App](https://egghead.io/series/react-testing-cookbook)
