@@ -14,7 +14,9 @@ Ferramenta de análise de aprendizagem de conceitos.
  7. Em **package.json** troque a linha dentro de "scripts" : `test": "echo \"Error: no test specified\"&& exit 1"` por `"production": "webpack -p", "start" : "webpack-dev-server"`
  8. Para inicializar o server e compilar o JSX para JS basta estar dentro do diretório do projeto e entrar o seguinte comando: `npm run start`
 
-Acesse o site em (http://localhost:8080/)
+Acesse o site em http://localhost:8080/
+
+
 ----------
 
 
