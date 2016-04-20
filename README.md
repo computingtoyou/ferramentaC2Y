@@ -1,7 +1,8 @@
 #Ferramenta C2Y!
-----------
+
 Ferramenta de análise de aprendizagem de conceitos.
 
+----------
 ## Configuração ##
 
  1. Instale o Node.js : [Installing Node.js and updating npm](https://docs.npmjs.com/getting-started/installing-node)
