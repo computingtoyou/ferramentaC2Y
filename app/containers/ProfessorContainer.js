@@ -4,15 +4,20 @@ var Professor = require('../components/Professor');
 var ProfessorContainer = React.createClass({
   getInitialState: function(){
     return{
-      username:""
+      username:"",
+      password:""
     }
   },
-
-// TODO: handleGetPassword
 
   HandleUpdateUser: function(e){
     this.setState({
       username : e.target.value
+    })
+  },
+
+  HandleUpdatePassword: function(e){
+    this.setState({
+      password: e.target.value
     })
   },
 
@@ -22,7 +27,9 @@ var ProfessorContainer = React.createClass({
     return(
       <Professor
         updateUser = {this.HandleUpdateUser}
-        username = {this.state.username}/>
+        updatePassword = {this.HandleUpdatePassword}
+        username = {this.state.username}
+        password = {this.state.password}/>
     )
   }
 });

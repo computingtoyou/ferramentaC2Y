@@ -17,7 +17,10 @@ var Professor = React.createClass({
           </div>
           <div className="row">
             <div className="input-field col s12">
-              <input id="senha" type="password"/>
+              <input id="senha"
+                type="password"
+                value={this.props.password}
+                onChange={this.props.updatePassword}/>
               <label for="senha">Senha</label>
             </div>
           </div>
