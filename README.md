@@ -6,12 +6,7 @@ Ferramenta de análise de aprendizagem de conceitos.
 ## Configuração ##
 
  1. Instale o Node.js : [Installing Node.js and updating npm](https://docs.npmjs.com/getting-started/installing-node)
- 2.  Na linha de comando, vá até o diretório do repositório e dê o seguinte comando: `npm init`
- 3. Dê enter em todas as opções que aparecerem (se for necessário, mude o nome.
- 4. A seguir, entre o seguinte comando `npm install --save react react-dom react-router@2.0.0-rc5 && npm install --save-dev html-webpack-plugin webpack webpack-dev-server babel-{core,loader} babel-preset-react`
- 5. Verifique se foi criado um arquivo **package.json**  e uma pasta **node_modules** com todas as dependências.
- 6. Caso necessário, baixe uma dependência por vez!
- 7. Em **package.json** troque a linha dentro de "scripts" : `test": "echo \"Error: no test specified\"&& exit 1"` por `"production": "webpack -p", "start" : "webpack-dev-server"`
+ 2. Na linha de comando, vá até o diretório do repositório e dê o seguinte comando: `sudo npm install`. Se não houve nenhum erro com a instalação de dependências, foi criada uma pasta **node_modules** com todas elas.
  8. Para inicializar o server e compilar o JSX para JS basta estar dentro do diretório do projeto e entrar o seguinte comando: `npm run start`
 
 Acesse o site em http://localhost:8080/
